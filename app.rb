@@ -40,7 +40,7 @@ class App < Sinatra::Base
     elsif @operation == "multiply"
       @number1 * @number2
     elsif @operation == "divide"
-      @number2 % @number1
+      @number2 / @number1
   end 
 end 
 
