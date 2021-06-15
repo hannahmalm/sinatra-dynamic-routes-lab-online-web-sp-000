@@ -43,7 +43,9 @@ class App < Sinatra::Base
       number1 * number2
     else @operation == "divide"
       number2 / number1
-  end 
+    end 
+  return @operation.to_s
+  
 end 
 
 
