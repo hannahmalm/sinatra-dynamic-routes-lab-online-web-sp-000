@@ -44,7 +44,7 @@ class App < Sinatra::Base
     else @operation == "divide"
       number2 / number1
     end 
-  puts @operation.to_s
+     @operation.to_s
   
 end 
 
